@@ -3,15 +3,22 @@
 	<head>
 		<meta charset="utf-8">
 <link href="styles/style.css" rel="stylesheet" type="text/css">
+<script src="scripts/scripts.js" defer></script>
 	</head>
 <body>
 <div id="conteiner">
+
+    <form id="form_id" method="post" action="" onsubmit="javascript:return validate('form_id','email');">
+        <input type="text" id="email" name="email" placeholder="Введите ваш email"/>
+            <input type="submit" value="Отправить" />
+     </form>
+
     <div id="top">
         <h1>Комнатные фиалки и их разновидности</h1>
     </div>
     <div id="left_bar">
         <p><h2>Уход за фиалками</h2></p>
-    <p>    
+    <p>  
     <ul>
         <li><b>Температура выращивания</b></li>
         <p>Оптимальная температура окружающей среды, комфортная для ее выращивания, должна находиться в пределах 20 – 25 °C.</p>
